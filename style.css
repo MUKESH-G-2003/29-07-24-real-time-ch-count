@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: palevioletred;
+    width: fit-content;
+    border-radius: 5px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#demo{
+    background-color: aqua;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* input{
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+} */
+.out{
+    padding: 20px 2px;
+    background-color: brown;
+    border-radius: 5px;
+}
+
+.status p{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#remaining{
+    color: red;
+    font-weight: 900;
+}
+
+#current{
+    color: green;
+    font-weight: 900;
+}
